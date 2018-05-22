@@ -1,5 +1,7 @@
 package star.yx.tabview;
 
+import star.yx.fragment.BaseFragment;
+
 /**
  * Created by yx on 16/4/6.
  */

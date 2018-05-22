@@ -43,7 +43,6 @@ public class TabView extends LinearLayout implements View.OnClickListener{
     }
 
     public void initData(TabItem tabItem){
-
         mTabImage.setImageResource(tabItem.imageResId);
         mTabLable.setText(tabItem.lableResId);
     }

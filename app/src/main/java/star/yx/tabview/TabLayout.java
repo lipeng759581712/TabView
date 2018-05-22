@@ -35,8 +35,6 @@ public class TabLayout extends LinearLayout implements View.OnClickListener{
 
     private void initView(){
         setOrientation(HORIZONTAL);
-
-
     }
 
     public void setCurrentTab(int i) {
@@ -84,12 +82,10 @@ public class TabLayout extends LinearLayout implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-
         listener.onTabClick((TabItem) v.getTag());
-
     }
-    public interface OnTabClickListener{
 
+    public interface OnTabClickListener{
         void onTabClick(TabItem tabItem);
     }
 }

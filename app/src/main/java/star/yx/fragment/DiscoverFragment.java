@@ -1,22 +1,26 @@
-package star.yx.tabview;
+package star.yx.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import star.yx.fragment.BaseFragment;
+import star.yx.tabview.ITabClickListener;
+import star.yx.tabview.R;
+
 /**
  * Created by yx on 16/4/3.
  */
-public class ProfileFragment extends BaseFragment implements ITabClickListener{
+public class DiscoverFragment extends BaseFragment implements ITabClickListener {
     @Override
     public void fetchData() {
-
+        
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.me_layout, container, false);
+        View view = inflater.inflate(R.layout.discvover_layout, container, false);
         return view;
     }
 
