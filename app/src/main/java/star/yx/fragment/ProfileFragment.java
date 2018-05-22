@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import star.yx.fragment.BaseFragment;
 import star.yx.tabview.ITabClickListener;
 import star.yx.tabview.R;
 
@@ -20,7 +19,7 @@ public class ProfileFragment extends BaseFragment implements ITabClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.me_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_layout_me, container, false);
         return view;
     }
 

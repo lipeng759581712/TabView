@@ -36,7 +36,7 @@ public class TabView extends LinearLayout implements View.OnClickListener{
     private void initView(Context context){
         setOrientation(VERTICAL);
         setGravity(Gravity.CENTER);
-        LayoutInflater.from(context).inflate(R.layout.tab_view,this,true);
+        LayoutInflater.from(context).inflate(R.layout.item_tab_view,this,true);
         mTabImage=(ImageView)findViewById(R.id.tab_image);
         mTabLable=(TextView)findViewById(R.id.tab_lable);
 

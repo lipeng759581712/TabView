@@ -20,7 +20,7 @@ public class ContactsFragment extends BaseFragment implements ITabClickListener 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.contacts_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_layout_contacts, container, false);
         return view;
     }
 
