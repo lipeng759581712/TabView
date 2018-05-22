@@ -12,11 +12,6 @@ import star.yx.tabview.R;
  */
 public class ContactsFragment extends BaseFragment  {
 
-
-    @Override
-    public void fetchData() {
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_layout_contacts, container, false);

@@ -11,10 +11,6 @@ import star.yx.tabview.R;
  * Created by yx on 16/4/3.
  */
 public class DiscoverFragment extends BaseFragment {
-    @Override
-    public void fetchData() {
-        
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

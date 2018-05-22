@@ -13,11 +13,6 @@ import star.yx.tabview.R;
 public class WechatFragment extends BaseFragment {
 
     @Override
-    public void fetchData() {
-
-    }
-
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragent_layout_wechat, container, false);
         return view;

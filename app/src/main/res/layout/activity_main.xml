@@ -5,14 +5,6 @@
     android:layout_height="match_parent"
     tools:context="star.yx.tabfragment.MainActivity">
 
-    <FrameLayout
-        android:visibility="gone"
-        android:id="@+id/fragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/tab_layout"
-        />
-
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_above="@id/tab_layout"
