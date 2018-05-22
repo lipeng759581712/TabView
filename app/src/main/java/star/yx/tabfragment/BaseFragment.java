@@ -1,4 +1,4 @@
-package star.yx.fragment;
+package star.yx.tabfragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

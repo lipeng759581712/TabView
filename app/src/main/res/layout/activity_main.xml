@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="star.yx.fragment.MainActivity">
+    tools:context="star.yx.tabfragment.MainActivity">
 
     <FrameLayout
         android:visibility="gone"
@@ -18,7 +18,7 @@
         android:layout_above="@id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-    <star.yx.tabview.TabLayout
+    <star.yx.tabfragment.TabLayout
         android:id="@+id/tab_layout"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"

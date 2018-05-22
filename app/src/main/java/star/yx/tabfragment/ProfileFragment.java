@@ -1,4 +1,4 @@
-package star.yx.fragment;
+package star.yx.tabfragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,15 +10,15 @@ import star.yx.tabview.R;
 /**
  * Created by yx on 16/4/3.
  */
-public class DiscoverFragment extends BaseFragment {
+public class ProfileFragment extends BaseFragment {
     @Override
     public void fetchData() {
-        
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_layout_discvover, container, false);
+        View view = inflater.inflate(R.layout.fragment_layout_me, container, false);
         return view;
     }
 }

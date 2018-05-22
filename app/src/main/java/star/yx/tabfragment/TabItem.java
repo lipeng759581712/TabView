@@ -1,6 +1,6 @@
-package star.yx.tabview;
+package star.yx.tabfragment;
 
-import star.yx.fragment.BaseFragment;
+import star.yx.tabfragment.BaseFragment;
 
 /**
  * Created by yx on 16/4/3.

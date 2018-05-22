@@ -1,4 +1,4 @@
-package star.yx.fragment;
+package star.yx.tabfragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,14 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import star.yx.fragment.BaseFragment;
-import star.yx.fragment.ContactsFragment;
-import star.yx.fragment.DiscoverFragment;
-import star.yx.fragment.ProfileFragment;
-import star.yx.fragment.WechatFragment;
 import star.yx.tabview.R;
-import star.yx.tabview.TabItem;
-import star.yx.tabview.TabLayout;
 
 public class MainActivity extends AppCompatActivity implements TabLayout.OnTabClickListener {
 
