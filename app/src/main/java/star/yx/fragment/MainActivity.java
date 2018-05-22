@@ -81,10 +81,8 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabCl
 
     @Override
     public void onTabClick(TabItem tabItem) {
-
         actionBar.setTitle(tabItem.lableResId);
         mViewPager.setCurrentItem(tabs.indexOf(tabItem));
-
     }
 
 
